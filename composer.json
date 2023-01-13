@@ -1,0 +1,23 @@
+{
+    "name": "alexandergambini/bienes-raices_php_poo",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexander Gambini",
+            "email": "correo@correo.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4":{
+            "Modelo\\": "./modelos",
+            "MVC\\": "./",
+            "Controlador\\": "./controladores"
+        }
+    }
+}

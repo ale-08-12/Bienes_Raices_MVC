@@ -1,0 +1,11 @@
+cypress/
+src/
+node_modules/
+vendor/
+public/imagenes
+.env
+cypress.config.js
+gulpfile.js
+package-lock.json
+package.json
+
